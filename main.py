@@ -1,6 +1,7 @@
 import logging
 import httpx
 from fastapi import FastAPI, HTTPException, Request, WebSocket, WebSocketDisconnect
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from dotenv import load_dotenv
 from pydantic import BaseModel
