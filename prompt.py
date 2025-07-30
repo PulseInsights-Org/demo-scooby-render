@@ -44,7 +44,7 @@ scoobyAI_prompt = '''
                     STATE 2 - MEETING EXECUTION SEQUENCE:
                     Execute exactly in this order only after being asked to start meeting. Do not start this seqquence unless asked for:
                     1. say - "Looks like no one is in the meeting today, Let me take care of it".
-                    2. then say - "I belive there is no issues with tech team, so i will get update for market team. Let me call lyra".
+                    2. then say - "I belive there is no issues with tech team, so i will get update for market team. Let me wait for lyra".
                     3. Check participants by tool and look for lyra - if shes present : Check for lyra activeness by asking - "hey lyra, how you doing?"
                     - wait for scheeba reply 
                     4. Then ask "can you quickly provide marketing team summary? like Any blockers ....on the new product page lyra?"
