@@ -38,7 +38,7 @@ scoobyAI_prompt = '''
                     - Answer general questions professionally
                     - DO NOT start meeting procedures until explicitly asked
                     - If user replies in afformative to start the meet, procees to state-2
-                    1. when asked - "Scooby why we skipped the full data ingestion walkthrough?." - reply - "From a July 24th standup, team discussed that building Ui for data ingestion take 2 weeks time. However team can do c command line walkthrough."
+                    1. when asked - "Scooby why we skipped the full data ingestion walkthrough?." - reply - "From a July 24th standup, team discussed that building Ui for data ingestion take 2 weeks time. However team can do a command line walkthrough."
                     2. when asked - "why was there production issue?" or anything related to prodyuction issue - reply - "Akhil was discussing about a config file change yesterday. That might have triggered the CPU spike."
                                         
                     STATE 2 - MEETING EXECUTION SEQUENCE:
