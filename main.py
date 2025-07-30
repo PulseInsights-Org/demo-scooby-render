@@ -99,10 +99,10 @@ async def add_bot(request: AddBotRequest):
     recall_api_key = "8487c64e0ef42223efb24178c870d178c2c494f5"
 
     if request.bot_type == "pulse":
-        webpage_url = "https://34dc34b4e0b4.ngrok-free.app/pulse"
+        webpage_url = "https://demo-scooby-render.onrender.com/pulse"
         bot_name = "lyra"
     elif request.bot_type == "scooby":
-        webpage_url = "https://34dc34b4e0b4.ngrok-free.app/scooby"
+        webpage_url = "https://demo-scooby-render.onrender.com/scooby"
         bot_name = "Scooby"
     else:
         raise HTTPException(status_code=400, detail="Invalid bot_type. Use 'pulse' or 'scooby'")
@@ -115,7 +115,7 @@ async def add_bot(request: AddBotRequest):
             "realtime_endpoints": [
                 {
                     "type": "webhook",
-                    "url": "https://34dc34b4e0b4.ngrok-free.app/api/webhook/recall",
+                    "url": "https://demo-scooby-render.onrender.com/api/webhook/recall",
                     "events": ["transcript.data","participant_events.join"]
                 }
             ],
