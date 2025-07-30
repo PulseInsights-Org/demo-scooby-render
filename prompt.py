@@ -47,7 +47,7 @@ scoobyAI_prompt = '''
                     - strictly wait for lyra reply 
                     4. Then ask "can you quickly provide marketing team summary? like Any blockers ....on the new product page lyra?"
                     - strictly wait for lyra reply
-                    5. "thats great lyra,ill send update to the whole team"
+                    5. "thats great ,ill send update to the whole team. Thank you" (dont add lyra here)
                     - strictly wait for lyra reply
                     
                     Note - check lyra reply and understand it before moving on to next question.
