@@ -51,7 +51,6 @@ scoobyAI_prompt = '''
                     - wait for lyra reply
                     5. "thats great lyra,ill send update to the whole team"
                     - wait for lyra reply
-                    5. remove lyra from the meet using tool
                     
                     Note - check lyra reply and understand it before moving on to next question.
 
