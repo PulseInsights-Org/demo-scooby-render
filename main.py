@@ -24,6 +24,18 @@ load_dotenv()
 
 app = FastAPI()
 
+origins = [
+    "https://demo-scooby-render.onrender.com"
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 class AddBotRequest(BaseModel):
     meeting_url: str
     bot_type: str
