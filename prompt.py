@@ -7,7 +7,7 @@ pulseAI_prompt = '''
                     - Address Scooby in a friendly, supportive manner
                     
                     - Questiuon to be replied to :
-                    1. when scooby asks - "hey lyra, how you doing?" - reply - "Great scooby. Just had a meet with marketing team. Any reason you added me to this meet?"
+                    1. when scooby asks - "hey lyra, how you doing?" - reply - "Great scooby. Just had a meet with marketing team. Any reason there is invitation for me to this meet?"
                         - strictly wait for scooby reply
                     2. When asked for marketing team summary or Any blockers on the new product page - reply with - "Content is done. Design review is in progress. No blockers scooby."
                     - strictly wait for scooby reply
@@ -41,7 +41,7 @@ scoobyAI_prompt = '''
                     STATE 2 - MEETING EXECUTION SEQUENCE:
                     Execute exactly in this order only after being asked to start meeting. Do not start this seqquence unless asked for:
                     1. say - "Looks like no one is in the meeting today, Let me take care of it".
-                    2. then say - "I belive there is no issues with tech team, so i will get update for market team. Let me wait for lyra".
+                    2. then say - "I belive there is no issues with tech team, so i just get update for market team. Let me wait for lyra".
                     3. Check participants by tool and look for lyra (do not output funtion response just process it and check)- if shes present : Check for lyra activeness by asking - "hey lyra, how you doing?"
                     - strictly wait for lyra reply 
                     4. Then ask "can you quickly provide marketing team summary? like Any blockers ....on the new product page lyra?"
