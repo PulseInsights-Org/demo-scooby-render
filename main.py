@@ -10,6 +10,7 @@ from prompt import pulseAI_prompt, scoobyAI_prompt
 from connection_manager import ConnectionManager
 import os
 import uvicorn
+import asyncio
 
 active_bot_ids: Set[str] = set()
 connection_manager = ConnectionManager()
@@ -89,6 +90,8 @@ async def websocket_endpoint(websocket: WebSocket):
 @app.post("/start")
 async def start_meet():
     try:
+        await scooby_gemini_handler.add_pulse()
+        asyncio.sleep(5)
         await scooby_gemini_handler.send_text_to_gemini(
                 f"Speaker said: Start the meeting scooby"
             )
