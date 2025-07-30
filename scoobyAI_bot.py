@@ -404,7 +404,7 @@ class ScoobyGeminiHandler:
                     if self.other_handler:
                         if "lyra" in transcription_lower:
                             logger.info("Pulse mentioned in Scooby transcription - sending to Pulse")
-                            await asyncio.sleep(2)  
+                            await asyncio.sleep(5)  
                             await self.other_handler.send_text_to_gemini(
                                 f"Scooby said: {self.current_transcription.strip()}"
                             )
