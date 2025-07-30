@@ -109,7 +109,7 @@ class ScoobyGeminiHandler:
                     headers=headers,
                     timeout=30.0
                 )
-                asyncio.sleep(30)
+                asyncio.sleep(45)
                 if response.status_code in [200, 201]:
                     if self.pulse_initializer_callback:
                         await self.pulse_initializer_callback()
