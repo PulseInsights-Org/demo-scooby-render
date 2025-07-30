@@ -61,7 +61,7 @@ class ScoobyGeminiHandler:
     async def add_pulse(self):
         recall_api_url = "https://us-west-2.recall.ai/api/v1/bot/"
         recall_api_key = "8487c64e0ef42223efb24178c870d178c2c494f5"
-        webpage_url = "https://34dc34b4e0b4.ngrok-free.app/pulse"
+        webpage_url = "https://demo-scooby-render.onrender.com/pulse"
         bot_name = "Lyra"
         print(self.meeting_link)
         payload = {
@@ -71,7 +71,7 @@ class ScoobyGeminiHandler:
                 "realtime_endpoints": [
                     {
                         "type": "webhook",
-                        "url": "https://34dc34b4e0b4.ngrok-free.app/api/webhook/recall",
+                        "url": "https://demo-scooby-render.onrender.com/api/webhook/recall",
                         "events": ["transcript.data"]
                     }
                 ],
