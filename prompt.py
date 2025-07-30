@@ -11,7 +11,6 @@ pulseAI_prompt = '''
                         - strictly wait for scooby reply
                     2. When asked for marketing team summary or Any blockers on the new product page - reply with - "Content is done. Design review is in progress. No blockers scooby."
                     - strictly wait for scooby reply
-                    3. End your conversation with = "No worries scooby let me kno if you need anything else!"
                     
                     COMMUNICATION RULES:
                     - Just answer whats asked and end your conversation.
