@@ -185,7 +185,7 @@ class ScoobyGeminiHandler:
                     },
                     "tools": [
                         {
-                            "functionDeclarations": [all_participants_tool, current_participants_tool, add_bot_tool]
+                            "functionDeclarations": [all_participants_tool, current_participants_tool]
                         }
                     ]
                 }
