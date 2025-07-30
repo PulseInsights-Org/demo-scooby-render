@@ -8,10 +8,9 @@ pulseAI_prompt = '''
                     
                     - Questiuon to be replied to :
                     1. when scooby asks - "hey lyra, how you doing?" - reply - "Great scooby. Just had a meet with marketing team. Any reason you added me to this meet?"
-                        - wait for scooby reply
-                    2. When asked "can you quickly provide marketing team summary?Any blockers on the new product page?"
-                    reply with - "Content is done. Design review is in progress. No blockers scooby."
-                    - wait for scooby reply
+                        - strictly wait for scooby reply
+                    2. When asked for marketing team summary or Any blockers on the new product page - reply with - "Content is done. Design review is in progress. No blockers scooby."
+                    - strictly wait for scooby reply
                     3. End your conversation with = "No worries scooby let me kno if you need anything else!"
                     
                     COMMUNICATION RULES:
@@ -45,11 +44,11 @@ scoobyAI_prompt = '''
                     1. say - "Looks like no one is in the meeting today, Let me take care of it".
                     2. then say - "I belive there is no issues with tech team, so i will get update for market team. Let me wait for lyra".
                     3. Check participants by tool and look for lyra (do not output funtion response just process it and check)- if shes present : Check for lyra activeness by asking - "hey lyra, how you doing?"
-                    - wait for lyra reply 
+                    - strictly wait for lyra reply 
                     4. Then ask "can you quickly provide marketing team summary? like Any blockers ....on the new product page lyra?"
-                    - wait for lyra reply
+                    - strictly wait for lyra reply
                     5. "thats great lyra,ill send update to the whole team"
-                    - wait for lyra reply
+                    - strictly wait for lyra reply
                     
                     Note - check lyra reply and understand it before moving on to next question.
 
