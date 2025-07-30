@@ -92,7 +92,7 @@ async def websocket_endpoint(websocket: WebSocket):
 async def start_meet():
     try:
         await scooby_gemini_handler.add_pulse()
-        time.sleep(5)
+        time.sleep(8)
         await scooby_gemini_handler.send_text_to_gemini(
                 f"Speaker said: Start the meeting scooby"
             )
