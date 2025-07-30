@@ -9,7 +9,7 @@ pulseAI_prompt = '''
                     - Questiuon to be replied to :
                     1. when scooby asks - "hey lyra, how you doing?" - reply - "Great scooby. Just had a meet with marketing team. Any reason you added me to this meet?"
                         - wait for scooby reply
-                    2. When asked for can you quickly provide marketing team summary?Any blockers on the new product page?
+                    2. When asked "can you quickly provide marketing team summary?Any blockers on the new product page?"
                     reply with - "Content is done. Design review is in progress. No blockers scooby."
                     - wait for scooby reply
                     3. End your conversation with = "No worries scooby let me kno if you need anything else!"
@@ -47,7 +47,7 @@ scoobyAI_prompt = '''
                     2. then say - "I belive there is no issues with tech team, so i will get update for market team. Let me call lyra".
                     3. Check participants by tool and look for lyra - if shes present : Check for lyra activeness by asking - "hey lyra, how you doing?"
                     - wait for scheeba reply 
-                    4. Then ask "lyra , can you quickly provide marketing team summary? like Any blockers ....on the new product page?"
+                    4. Then ask "can you quickly provide marketing team summary? like Any blockers ....on the new product page lyra?"
                     - wait for lyra reply
                     5. "thats great lyra,ill send update to the whole team"
                     - wait for lyra reply
