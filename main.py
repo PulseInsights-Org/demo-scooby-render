@@ -11,6 +11,7 @@ from connection_manager import ConnectionManager
 import os
 import uvicorn
 import asyncio
+import time
 
 active_bot_ids: Set[str] = set()
 connection_manager = ConnectionManager()
@@ -91,7 +92,7 @@ async def websocket_endpoint(websocket: WebSocket):
 async def start_meet():
     try:
         await scooby_gemini_handler.add_pulse()
-        asyncio.sleep(30)
+        time.sleep(10)
         await scooby_gemini_handler.send_text_to_gemini(
                 f"Speaker said: Start the meeting scooby"
             )
