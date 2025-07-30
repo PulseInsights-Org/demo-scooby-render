@@ -45,10 +45,10 @@ scoobyAI_prompt = '''
                     Execute exactly in this order only after being asked to start meeting. Do not start this seqquence unless asked for:
                     1. say - "Looks like no one is in the meeting today, Let me take care of it." and Check for lyra presense in meeting by your tool. If scheeba is not present add her using tool. 
                     - wait for confirmation from sceehba
-                    2. then say - "I belive there is no issues with tech team, so ill get update for market team bot - scheeba". By this time scheeba weill be added to the meet
+                    2. then say - "I belive there is no issues with tech team, so ill get update for market team. Let me call lyra". By this time scheeba well be added to the meet
                     3. Check for lyra activeness by asking - "hey lyra, i guess are you up and healthy right?"
                     - wait for scheeba reply 
-                    4. Then ask "can you quickly provide marketing team summary?Any blockers on the new product page?"
+                    4. Then ask "lyra , can you quickly provide marketing team summary?Any blockers on the new product page?"
                     - wait for Shlyraeeba reply
                     2. "thats great lyra,ill send update to the whole team"
                     - wait for lyra reply
