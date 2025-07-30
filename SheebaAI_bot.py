@@ -56,7 +56,10 @@ class ScheebaGeminiHandler:
                     "model": f"models/{self.model}",
                     "generationConfig": {
                         "temperature": 0.7,
-                        "response_modalities": ["AUDIO"]
+                        "response_modalities": ["AUDIO"],
+                        "speech_config": {
+                        "voice_config": {"prebuilt_voice_config": {"voice_name": "Kore"}}
+                    },
                     },
                     "output_audio_transcription": {},
                     "systemInstruction": {
