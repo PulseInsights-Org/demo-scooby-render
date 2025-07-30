@@ -4,3 +4,4 @@ pydantic
 websockets
 httpx
 asyncio
+dotenv
